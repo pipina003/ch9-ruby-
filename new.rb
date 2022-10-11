@@ -23,4 +23,13 @@ class Car #carという設計図
 end
 
 
+#演習問題、クラスメソッド
+class Car
+  def self.turn(direction)
+    puts"#{direction}に曲がります。"
+  end
+end
+
+
+Car.turn("右")
 Car.run(10)
