@@ -4,13 +4,12 @@ class Car
   end
 end
 
-
-class Bus<Car
+class Truck<Car
   def run(distance)
-    super
-    puts "30人を乗せて走っています。"
+   super
+    puts "大きな荷物を乗せて走ります。"
   end
 end
 
-bus=Bus.new
-bus.run(5)
+truck=Truck.new
+truck.run(5)
